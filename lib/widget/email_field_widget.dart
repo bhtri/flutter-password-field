@@ -5,8 +5,8 @@ class EmailFieldWidget extends StatefulWidget {
   final TextEditingController controller;
 
   const EmailFieldWidget({
-    Key key,
-    @required this.controller,
+    Key? key,
+    required this.controller,
   }) : super(key: key);
 
   @override
